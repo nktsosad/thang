@@ -1,12 +1,18 @@
+html {
+    background-color: rgb(253, 242, 233);
+}
+
 body {
     margin: 0;
 }
 
 header {
     display: flex;
-    background-color: yellowgreen;
+    background-color: rgb(253, 242, 233);
     justify-content: space-between;
     align-items: center;
+    padding: 2rem;
+    font-family: 'Rubik', sans-serif;
 }
 
 .logo {
@@ -17,6 +23,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 
 nav ul li {
@@ -29,4 +36,23 @@ nav ul li a {
     color: rgb(0, 0, 0);
     font-family: '
 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(230, 126, 34);
+}
+
+.tryforfree {
+    border: 1px solid rgb(230, 126, 34);
+    background-color: rgb(230, 126, 34);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 1ch;
 }
